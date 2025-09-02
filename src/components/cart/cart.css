@@ -1,16 +1,27 @@
-.lista-produto {
-    max-height: 500px; /* ajuste conforme necessário */
-    margin: 0 20px;
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 15px; /* padding interno consistente */
+    box-sizing: border-box;
+}
+
+.lista-produtos {
+    flex: 1; /* ocupa o espaço disponível */
     overflow-y: auto;
+    max-height: 500px; /* opcional */
+    margin: 0;
+    padding: 10px 0; /* espaçamento interno */
 }
 
 .footer-cart {
-    margin-top: 20px;
     border-top: 2px solid #e7e7e7;
+    padding: 15px 0;
 }
 
 .footer-cart-valor {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0 23px 25px;
+    margin: 0;
+    padding: 0 5px; /* alinhamento consistente */
 }
