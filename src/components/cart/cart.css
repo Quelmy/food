@@ -1,19 +1,16 @@
-.lista-produto{
-    height: calc(100% - 250%);
-    margin-right: 20px;
-    margin-left: 20px;
-    overflow: auto;
+.lista-produto {
+    max-height: 500px; /* ajuste conforme necessário */
+    margin: 0 20px;
+    overflow-y: auto;
 }
 
-.footer-cart{
+.footer-cart {
     margin-top: 20px;
     border-top: 2px solid #e7e7e7;
 }
 
-.footer-cart-valor{
-    margin-top: 20px;
-    margin-left: 25px;
-    margin-bottom: 23px;
+.footer-cart-valor {
     display: flex;
     justify-content: space-between;
+    margin: 20px 0 23px 25px;
 }
