@@ -1,133 +1,29 @@
-/* .navbar {
+.navbar{
     width: 100%;
-    min-height: 60px;
+    height: 150%;
     background-image: url("../../assets/bg-navbar.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: repeat-x;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+
 }
 
-.logotipo {
-    max-width: 120px;
-    height: auto;
+.logotipo{
+    max-width: 100px;
+    width: 12%;
+    padding: 10px 10px 10px 20px;
+}
+
+.menu{
+    float: right;
     padding: 10px;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-}
-
-.menu a {
+.menu a{
     color: black;
-    text-decoration: none;
-    transition: color 0.3s ease;
+    margin-right: 25px;
+    
 }
 
-.menu a:hover {
+.menu a:hover{
     color: #d24434;
 }
-
-.btn-red {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background-color: #d24434;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.btn-red:hover {
-    background-color: #b12f20;
-}
-
-.icon {
-    width: 20px;
-    height: 20px;
-} */
-
-.navbar {
-    width: 100%;
-    min-height: 60px;
-    background-image: url("../../assets/bg-navbar.png");
-    background-size: cover;
-    background-repeat: repeat-x;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15px; /* reduz um pouco o padding em telas pequenas */
-    box-sizing: border-box;
-}
-
-.logotipo {
-    max-width: 120px;
-    height: auto;
-    padding: 10px 0;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* menor para mobile */
-    flex-wrap: wrap; /* evita quebra de layout */
-}
-
-.menu a {
-    color: black;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    font-size: 14px; /* ajusta texto em mobile */
-}
-
-.menu a:hover {
-    color: #d24434;
-}
-
-.btn-red {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background-color: #d24434;
-    color: white;
-    border: none;
-    padding: 6px 10px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-    font-size: 14px;
-}
-
-.btn-red:hover {
-    background-color: #b12f20;
-}
-
-.icon {
-    width: 18px;
-    height: 18px;
-}
-
-/* Media query para telas muito pequenas */
-@media (max-width: 400px) {
-    .menu {
-        gap: 10px;
-    }
-
-    .btn-red {
-        padding: 5px 8px;
-        font-size: 12px;
-    }
-
-    .icon {
-        width: 16px;
-        height: 16px;
-    }
-}
-
