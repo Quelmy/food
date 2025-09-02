@@ -31,13 +31,14 @@ function Cart() {
     >
       <div className="cart-header text-center">
         <h1>Meu Pedido</h1>
-        <button
+       {/* <button
           className="close-cart"
           onClick={() => setShow(false)}
           aria-label="Fechar carrinho"
         >
           ×
-        </button>
+        </button> */}
+
       </div>
 
       <div className="lista-produtos">
