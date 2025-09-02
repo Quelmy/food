@@ -134,6 +134,17 @@ td {
     transition: background-color 0.3s ease;
 }
 
+.btn-cart {
+    background-color: #e84f3d;
+    border: 3px solid #e9e9e9;
+    border-radius: 50px;
+    width: 60px;
+    fpadding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 .btn-cart:hover {
     background-color: #d24434;
 }
@@ -151,6 +162,7 @@ td {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 
 .btn-checkout:hover {
     background-color: #d24434;
